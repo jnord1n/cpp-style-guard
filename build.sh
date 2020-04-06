@@ -1,6 +1,7 @@
 #!/bin/bash
 
 mkdir build
+
 pushd build > /dev/null
 cmake ..
 cmake --build . -- -j8
